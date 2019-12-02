@@ -1,0 +1,85 @@
+.introduce{
+    width:100%;
+    height:700px;
+    background-image: url(./photo/bg0.jpg);
+    font-size:18px;
+    /* font-family:""; */
+}
+.int_word{
+    /* margin-top:80%; */
+    padding-top: 350px;
+    padding-left:40px;
+    color:white;
+}
+.bigWord{
+    font-size: 40px;
+}
+.transBtn{
+    background-color:transparent;
+    color:white;
+}
+.navbar{
+    color:white;
+}
+.title{
+    text-align: center;
+    font-size:30px;
+    padding-top: 30px;
+    padding-bottom:40px;
+}
+.about,.skills{
+    width:100%;
+    height:700px;
+}
+.about,.chooseBtn{
+    text-align:center;
+}
+.photo{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+.skills{
+    background-color: #515C7C;
+}
+.project_intro{
+    text-align:center;
+    padding-top:30px;
+}
+.project_pro{
+    width:200px;
+    height:200px;
+    margin:30px 20px 30px 20px;
+}
+.skill {
+	margin-bottom: 40px;
+	text-align: center;
+    padding: 0px;
+    font-weight: 600;
+	color: #fff;
+}
+.chart {
+	position: relative;
+	display: inline-block;
+	width: 152px;
+	height: 152px;
+	margin-bottom: 26px;
+	text-align: center;
+}
+.chart canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.percent {
+	display: inline-block;
+	font-size: 21px;
+	color: #121d1f;
+	line-height: 152px;
+	z-index: 2;
+}
+.percent:after {
+	content: '%';
+	margin-left: 0.1em;
+	font-size: .8em;
+}

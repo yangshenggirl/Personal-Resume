@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>在线简历</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="./js/echarts.min.js"></script>
+    
+  </head>
+  <body>
+    <div class="introduce">
+        <div class="int_word">
+            <div class="bigWord">Hello,I'm dubdub</div>
+            <p>一枚浅显的前端小白</p>
+            <button type="button" class="btn btn-default transBtn">了解更多</button>
+        </div>
+    </div>
+    <div class="personMess">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span></button>
+                    <a class="navbar-brand" href="#">dubdub</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SKILLS</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">RESUME</a></li>
+                    <li><a href="#">CONTANT</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="about">
+            <div class="title">About Me</div>
+            <!-- <hr> -->
+            <img class="photo" src="./photo/tx0.jpg">
+            <div style="padding-top:50px">前端方面目前是一个超级小白了,有一点点的进取心和责任心</div>
+            <br>
+            <div>目标是能成为像羡辙那样厉害又有趣的前端空城狮吖</div>
+            <br>
+            <div>希望今年能认真的把百度前端学院的课程学完，然后...脱发情况改善</div>
+            <br>
+            <div>_(:з」∠)_</div>
+        </div>
+        <div class="skills">
+            <div class="title" style="color:white;padding-top:70px">Skills</div>
+            <!-- <hr> -->
+            <div class="row" style="text-align:center">
+                <div class="col-md-6 col-sm-6 skill"> 
+                    <div id="main" style="width: 600px;height:400px;"></div>
+                    <span class="chart" data-percent="95"> <span class="percent">95</span> 
+                    </span>
+                    <h4>HTML5</h4>
+                </div>
+                <div class="col-md-6 col-sm-6 skill"> 
+                    <span class="chart" data-percent="85"> <span class="percent">85</span> 
+                    </span>
+                    <h4>CSS3</h4>
+                </div>
+                <div class="col-md-6 col-sm-6 skill"> 
+                    <span class="chart" data-percent="80"> <span class="percent">80</span> 
+                    </span>
+                    <h4>jQuery</h4>
+                </div>
+                <div class="col-md-6 col-sm-6 skill"> 
+                    <span class="chart" data-percent="80"> <span class="percent">80</span> 
+                    </span>
+                    <h4>python</h4>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="title" style="padding-top:70px">Projects</div>
+            <div class="chooseBtn">
+                <button type="button" class="btn btn-default">All</button>
+                <button type="button" class="btn btn-default">Web Design</button>
+                <button type="button" class="btn btn-default">Web Project</button>
+            </div>
+            <div class="project_intro">
+                <img class="project_pro" src="./photo/project0.jpg">
+                <img class="project_pro" src="./photo/project1.jpg">
+                <br>
+                <img class="project_pro" src="./photo/project2.jpg">
+                <img class="project_pro" src="./photo/project3.jpg">
+            </div>
+        </div>
+        <div class="resume">
+        <div class="Experience">
+            <div class="title" style="padding-top:70px">Experience</div>
+        </div>
+        <div class="Education">
+            <div class="title" style="padding-top:70px">Education</div>
+        </div>
+        </div>
+        <div class="contact">
+            <div class="title" style="padding-top:70px">Contact</div>
+        </div>
+    </div>
+    
+  </body>
+  
+</html>
+<script src="./js/resume.js"></script>
